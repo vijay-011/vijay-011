@@ -103,18 +103,20 @@ Always open to interesting ideas, collaborations, and experiments.
 
 **MAKE SOMETHING. MAKE IT MATTER.**
 
-<br/>
+
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+    srcset="https://raw.githubusercontent.com/vijay-011/vijay-011/output/pacman-contribution-graph-dark.svg" />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+    srcset="https://raw.githubusercontent.com/vijay-011/vijay-011/output/pacman-contribution-graph.svg" />
   <img
-    alt="Purple GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg"
+    alt="Pac-Man contribution graph"
+    src="https://raw.githubusercontent.com/vijay-011/vijay-011/output/pacman-contribution-graph.svg"
     width="100%" />
+</picture>
+
 </picture>
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:2E0854,50:7B2CBF,100:E0AAFF&section=footer" width="100%" />
 </div>
