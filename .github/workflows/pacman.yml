@@ -27,14 +27,28 @@ jobs:
 
       - name: Apply Purple Venom Colors
         run: |
-          find dist -name "*.svg" -type f -exec sed -i \
-            -e 's/#0d1117/#0D0718/g' \
-            -e 's/#161b22/#2E0854/g' \
-            -e 's/#0e4429/#4C1D95/g' \
-            -e 's/#006d32/#7B2CBF/g' \
-            -e 's/#26a641/#B57EDC/g' \
-            -e 's/#39d353/#E0AAFF/g' \
-            {} +
+          python3 - <<'PY'
+          from pathlib import Path
+
+          colors = {
+              "#0e4429": "#2E0854",
+              "#006d32": "#4C1D95",
+              "#26a641": "#7B2CBF",
+              "#39d353": "#B57EDC",
+              "#ebedf0": "#E0AAFF",
+              "#161b22": "#0D0718",
+          }
+
+          for file in Path("dist").rglob("*.svg"):
+              content = file.read_text()
+
+              for old, new in colors.items():
+                  content = content.replace(old, new)
+                  content = content.replace(old.upper(), new)
+
+              file.write_text(content)
+              print(f"Updated colors in {file}")
+          PY
 
       - name: Publish animation
         uses: crazy-max/ghaction-github-pages@v3.1.0
@@ -43,4 +57,5 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
