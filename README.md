@@ -1,4 +1,6 @@
-
+<div align="center">
+  <img src="./marvel-banner.gif" width="100%" alt="Animated banner"/>
+</div>
 
 
 <img src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:2E0854,50:7B2CBF,100:E0AAFF&text=VIJAY-011&fontSize=65&fontColor=E0AAFF&fontAlignY=45&desc=EXPERIMENTAL%20BUILDER%20%7C%20CREATIVE%20DEVELOPER&descSize=14&descAlignY=65&animation=twinkling" width="100%" />
