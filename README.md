@@ -1,7 +1,7 @@
 
 
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:014421,50:046307,100:D0F0C0&text=VIJAY.011&fontSize=65&fontColor=D0F0C0&fontAlignY=45&desc=EXPERIMENTAL%20BUILDER%20%7C%20CREATIVE%20DEVELOPER&descSize=14&descAlignY=65&animation=twinkling" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:2E0854,50:7B2CBF,100:E0AAFF&text=VIJAY-011&fontSize=65&fontColor=E0AAFF&fontAlignY=45&desc=EXPERIMENTAL%20BUILDER%20%7C%20CREATIVE%20DEVELOPER&descSize=14&descAlignY=65&animation=twinkling" width="100%" />
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=700&lines=Building+things+that+shouldn't+exist.;Experimenting+with+ideas+that+might.;Code.+Create.+Break.+Rebuild.;Curiosity+is+my+development+environment." alt="Animated introduction" />
 
 <br/><br/>
@@ -105,13 +105,18 @@ Always open to interesting ideas, collaborations, and experiments.
 
 <br/>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg" />
+  <img
+    alt="Purple GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake.svg"
+    width="100%" />
 </picture>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:FFFFFF,50:8B2BE2,100:FF1744&section=footer" width="100%" />
-
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:2E0854,50:7B2CBF,100:E0AAFF&section=footer" width="100%" />
 </div>
 
           
